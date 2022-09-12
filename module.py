@@ -1,9 +1,8 @@
-def circumferenceFinder():
-    print("Enter Radius of Circle: ")
+def findCircumference(r):
+    return 3.14*2*r
 
-    #Calculate circumferece
-    r = float(input())
-    c = 2 * 3.14 * r
+print("Enter Radius of Circle: ", end="")
+r=float(input())
 
-    #Print answer
-    print("Circumference = " + c)
+c = findCircumference(r)
+print("/nCircumference = {:.2f}".format(c))
