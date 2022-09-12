@@ -1,5 +1,4 @@
-def circumferenceFinder(r):
-    #Request input from user
+def circumferenceFinder():
     print("Enter Radius of Circle: ")
 
     #Calculate circumferece
