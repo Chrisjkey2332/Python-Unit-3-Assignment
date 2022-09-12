@@ -4,7 +4,7 @@ def circumferenceFinder(r):
 
     #Calculate circumferece
     r = float(input())
-    c = 3.14*r*r
+    c = 2 * 3.14 * r
 
     #Print answer
     print("Circumference = " + c)
