@@ -1,4 +1,4 @@
-def circumferenceFinder(c):
+def circumferenceFinder(r):
     #Request input from user
     print("Enter Radius of Circle: ")
 
